@@ -1,0 +1,145 @@
+/* Header and Navigation */
+head, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #232f3e;
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    display: inline-block;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    font-family: 'Crimson Pro', serif;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+} 
+
+.navLinks {
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid white;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.navLinks:hover {
+    background: #0099cc;
+    color: white;
+    border: 1px solid #0099cc;
+}
+
+.navButtons {
+    display: inline-block;   
+    margin-right: 40px;
+    margin-left: 40px; 
+}
+
+.navigation {
+    text-align: center;
+    width: 100%;
+    padding: 0px 30px;
+    background: #0099cc;
+}
+
+/* Book List Articles */
+
+.bookList {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    width: auto;
+}
+
+.bookItem {
+    width: 30%;
+    height: 35%;
+    min-width: 350px;
+    min-height: 600px;
+    border: 3px solid #232f3e;
+    display: inline-block;
+}
+
+.bookCover {
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px 0px 10px 0px;
+}
+
+.bookTitle {
+    text-align: center;
+    height: 50px;
+    line-height: 1;
+    padding: 5px;
+}
+
+.bookTitleFont {
+    text-decoration: none;
+    font-size: 24px;
+    color: #232f3e;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.authorName {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Darker Grotesque', sans-serif;
+    height: 30px;
+
+}
+
+.starRatingImage {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.review {
+    padding: 0px 10px;
+    height: 200px;
+    background: #232f3e;
+    overflow: auto;
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 12px;
+    line-height: 1;
+}
+
+/* Other elements */
+
+p {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 36px;
+    background: #0099cc;
+    color: white;
+    padding: 5px 0px 5px 50px;
+}
+
+footer {
+    text-decoration: none;
+    color: black;
+}
